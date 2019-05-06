@@ -28,3 +28,17 @@ document.write("y = " + y + "<br/>");
 
 
 //constants
+//const does not mean "constant", it means one-time assignment
+
+const PI = 3.14159
+
+
+if (true) {
+    const PI = 2.13;
+    document.write("PI" + PI + "<br/>")
+}
+
+document.write("PI" + PI + "<br/>");
+
+
+//

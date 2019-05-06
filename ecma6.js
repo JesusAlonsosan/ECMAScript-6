@@ -14,3 +14,17 @@ document.write("z =" + z + "<br/>");
 if (false);
 let w = 200;
 document.write("Hola", ("<br/>"));
+
+
+
+//basic idea of let
+
+var y = 10;
+if (true) {
+    let y = 20;
+}
+
+document.write("y = " + y + "<br/>");
+
+
+//constants

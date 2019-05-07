@@ -59,3 +59,21 @@ let fName = "Jesus";
 let eName = "Alonso";
 
 document.write(`${fName} ${eName} <br />`);
+
+let num1 = 10;
+let num2 = 10;
+
+document.write(`1 * 1 = ${num1 * num2} <br />`);
+
+function doMath(strings, ...values) {
+    if (string[0] === 'Add') {
+        document.write(`${values[0]} + ${values[1]} = 
+        ${values[0]} + ${values[1]} "<br />"`);
+    } else if (string[0] === 'Sub') {
+        document.write(`${values[0]} - ${values[1]} =
+        ${values[0] + $values[1]}<br />`);
+    }
+}
+
+
+doMath

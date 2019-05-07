@@ -1,4 +1,4 @@
-//spread operator o rest operator ( ... )
+//spread operator o rest operator ( ... ) *
 
 
 function myFunc(a, b, ...args) {

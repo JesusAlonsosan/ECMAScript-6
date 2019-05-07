@@ -60,6 +60,7 @@ document.write(typeof undefined + "<br/>"); //undefined
 let fName = "Jesus";
 let eName = "Alonso";
 
+
 document.write(`${fName} ${eName} <br />`);
 
 
@@ -85,3 +86,14 @@ function doMath(strings, ...values) {
 
 doMath `Add${10} ${20}`;
 doMath `Sub${100} ${20}`;
+
+
+//arrow fuction
+
+
+var funcName = (params) => params + 2
+
+funcName(2);
+
+console.log(funcName);
+//4

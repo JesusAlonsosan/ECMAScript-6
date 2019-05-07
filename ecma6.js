@@ -97,3 +97,7 @@ funcName(2);
 
 console.log(funcName);
 //4
+
+
+var double = num => num * 2
+console.log(num);

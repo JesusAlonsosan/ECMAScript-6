@@ -100,4 +100,30 @@ console.log(funcName);
 
 
 var double = num => num * 2
-console.log(num);
+
+
+
+/* *For of* creates a loop iterating over iterable objects: String, Array, Array-like objects 
+(e.g., arguments or NodeList), TypedArray, Map, Set and user-defined iterables.*/
+
+for (let c of fName) {
+    document.write(`${c}<br />`);
+}
+
+for (let c of eName) {
+    document.write(`${c}<br />`);
+}
+
+document.write("Que onda".repeat(2), "Jesus".repeat(2) + "<br />");
+
+document.write(fName.startsWith("Je") + "<br />");
+
+document.write(fName.endsWith("sus") + "<br />");
+
+document.write(fName.includes("ish") + "<br />");
+
+let multilineStr = `This is \ 
+a multiline \
+string`;
+
+document.write(`${multilineStr}<br /r>`);
